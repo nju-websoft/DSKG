@@ -9,7 +9,7 @@ A Deep Sequential Model for Knowledge Graph Completion
 
 ### Running
 
-1. unpack the data.tar.gz, which concludes all of three datasets.
+1. unpack the data.tar.gz, which includes all of three datasets.
 
 2. run jupyter:
 <code> jupyter notebook </code>
