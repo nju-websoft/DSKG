@@ -16,4 +16,6 @@ A Deep Sequential Model for Knowledge Graph Completion
 
 3. open runDSKG.ipynb & run all cells (Kernel -> Restart & Run All)
 
+You can also directly click runDSKG.ipynb in this page to preview the results we have run.
+
 
