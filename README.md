@@ -1,7 +1,9 @@
 # DSKG
-A Deep Sequential Model for Knowledge Graph Completion
+
+DSKG: A Deep Sequential Model for Knowledge Graph Completion
 
 ### Requirements
+
 * python 3.x
 * tensorflow 1.x
 * numpy, pandas
@@ -18,24 +20,23 @@ A Deep Sequential Model for Knowledge Graph Completion
 
 You can also directly click runDSKG.ipynb in this page to preview the results we have run.
 
-
 ### Entity Prediction Results
 
 #### FB15K-237
 
-| Models                |  Hits@1  |  Hits@10 |    MRR   |    MR   |
-|:----------------------|:--------:|:--------:|:--------:|:-------:|
-| TransE (our) |   13.3   |   40.9   |   22.3   |   315   |
-| TransR (our) |   10.9   |   38.2   |   19.9   |   417   |
-| PTransE (our) |   21.0   |   50.1   |   31.4   |   299   |
-| DISTMULT              |   15.5   |   41.9   |   24.1   |   254   |
-| NLFeat                |    \-    |   41.4   |   27.2   |    \-   |
-| ComplEx               |   15.2   |   41.9   |   24.0   |   248   |
-| NeuralLP              |    \-    |   36.2   |   24.0   |    \-   |
-| ConvE                 |   23.9   |   49.1   |   31.6   |   246   |
-| InverseModel          |    0.4   |    1.2   |    0.7   |  7,124  |
-| DSKG (cascade)        |   20.5   |   50.1   |   30.3   |   842   |
-| DSKG                  | **24.9** | **52.1** | **33.9** | **175** |
+| Models         |  Hits@1  |  Hits@10 |    MRR   |    MR   |
+|:---------------|:--------:|:--------:|:--------:|:-------:|
+| TransE (our)   |   13.3   |   40.9   |   22.3   |   315   |
+| TransR (our)   |   10.9   |   38.2   |   19.9   |   417   |
+| PTransE (our)  |   21.0   |   50.1   |   31.4   |   299   |
+| DISTMULT       |   15.5   |   41.9   |   24.1   |   254   |
+| NLFeat         |    \-    |   41.4   |   27.2   |    \-   |
+| ComplEx        |   15.2   |   41.9   |   24.0   |   248   |
+| NeuralLP       |    \-    |   36.2   |   24.0   |    \-   |
+| ConvE          |   23.9   |   49.1   |   31.6   |   246   |
+| InverseModel   |    0.4   |    1.2   |    0.7   |  7,124  |
+| DSKG (cascade) |   20.5   |   50.1   |   30.3   |   842   |
+| DSKG           | **24.9** | **52.1** | **33.9** | **175** |
 
 #### FB15K
 
@@ -53,7 +54,6 @@ You can also directly click runDSKG.ipynb in this page to preview the results we
 | DSKG (cascade) |   64.9   |   87.7   |   73.0   |   151  |
 | DSKG           | **75.3** | **90.2** |   80.9   | **30** |
 
-
 #### WN18
 
 | Models         |  Hits@1  |  Hits@10 |    MRR   |    MR   |
@@ -69,3 +69,7 @@ You can also directly click runDSKG.ipynb in this page to preview the results we
 | InverseModel   |   75.7   | **96.9** |   85.7   |   602   |
 | DSKG (cascade) |   93.9   |   95.0   |   94.3   |   959   |
 | DSKG           | **94.2** |   95.2   | **94.6** | **337** |
+
+### Citation
+
+> Lingbing Guo, Qingheng Zhang, Weiyi Ge, Wei Hu*, Yuzhong Qu. DSKG: A Deep Sequential Model for Knowledge Graph Completion. In: CCKS 2018. https://arxiv.org/pdf/1810.12582.pdf
