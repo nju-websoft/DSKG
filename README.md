@@ -1,6 +1,6 @@
 # DSKG
 
-DSKG: A Deep Sequential Model for Knowledge Graph Completion
+DSKG: Deep Sequential models for Knowledge Graphs
 
 ### Requirements
 
@@ -73,3 +73,4 @@ You can also directly click runDSKG.ipynb in this page to preview the results we
 ### Citation
 
 > Lingbing Guo, Qingheng Zhang, Weiyi Ge, Wei Hu*, Yuzhong Qu. DSKG: A Deep Sequential Model for Knowledge Graph Completion. In: CCKS 2018. https://arxiv.org/pdf/1810.12582.pdf
+> Lingbing Guo, Qingheng Zhang, Wei Hu∗, Zequn Sun, Yuzhong Qu. Learning to Complete Knowledge Graphs with Deep Sequential Models. Data Intelligence, 1(3):224–243, 2019. http://www.data-intelligence.org/p/25/
